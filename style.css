@@ -13,23 +13,27 @@
 }
 
 .wrapper{
-    height:102vh;
-    width:100vw;
+    height:100vh;
+    width:100%;
     color: var(--colorLight2);
     background: linear-gradient(90deg, rgba(11, 56, 173, 1) 8%, rgba(247, 174, 49, 1) 100%);
+}
+
+.container{
+ 
 }
 
 h1{
     text-align: center;
     text-transform:uppercase;
-    padding-top:20px;
+    padding-top:10px;
 }
 
 .tab-container {
     width: 90%;
     max-width: 550px;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -41,13 +45,13 @@ h1{
     padding: 5px 8px;
 }
 
-.tab .current-tab{
+.tab.current-tab{
     background-color: rgba(219, 226, 239, 0.5);
     border-radius: 4px;
 }
 
 .weather-container{
-    margin-block:3rem;
+    margin-block:1rem;
 }
 
 .btn{
@@ -59,9 +63,7 @@ h1{
     cursor: pointer;
     padding: 10px 30px;
     margin-bottom: 10px;
-    /* appearance: none;
-    border:none;
-    color: white; */
+    /* appearance: none; border:none; color: white; */
 }
 
 .sub-container{
@@ -130,8 +132,8 @@ h1{
 }
 
 .user-info-container img{
-    width:90px;
-    height:90px;
+    width:60px;
+    height:60px;
 }
 
 .name p{
@@ -174,8 +176,8 @@ h1{
 }   
 
 .parameter img{
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
 }
 
 .parameter p:first-of-type{
@@ -200,7 +202,7 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 0 10px; 
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .form-container.active{
